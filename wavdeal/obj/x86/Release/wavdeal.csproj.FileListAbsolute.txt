@@ -1,0 +1,10 @@
+F:\MyProject\wavdeals\wavdeal\wavdeal\bin\Release\wavdeal.exe.config
+F:\MyProject\wavdeals\wavdeal\wavdeal\bin\Release\wavdeal.exe
+F:\MyProject\wavdeals\wavdeal\wavdeal\bin\Release\wavdeal.pdb
+F:\MyProject\wavdeals\wavdeal\wavdeal\obj\x86\Release\ResolveAssemblyReference.cache
+F:\MyProject\wavdeals\wavdeal\wavdeal\obj\x86\Release\wavdeal.mainForm.resources
+F:\MyProject\wavdeals\wavdeal\wavdeal\obj\x86\Release\wavdeal.Properties.Resources.resources
+F:\MyProject\wavdeals\wavdeal\wavdeal\obj\x86\Release\GenerateResource.read.1.tlog
+F:\MyProject\wavdeals\wavdeal\wavdeal\obj\x86\Release\GenerateResource.write.1.tlog
+F:\MyProject\wavdeals\wavdeal\wavdeal\obj\x86\Release\wavdeal.exe
+F:\MyProject\wavdeals\wavdeal\wavdeal\obj\x86\Release\wavdeal.pdb
