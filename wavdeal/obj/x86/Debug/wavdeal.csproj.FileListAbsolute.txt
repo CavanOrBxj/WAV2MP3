@@ -30,3 +30,13 @@ C:\Users\Administrator\Desktop\wavdeal带循环搜索\wavdeal\obj\x86\Debug\wavd
 C:\Users\Administrator\Desktop\wavdeal带循环搜索\wavdeal\obj\x86\Debug\wavdeal.mainForm.resources
 C:\Users\Administrator\Desktop\wavdeal带循环搜索\wavdeal\obj\x86\Debug\wavdeal.Properties.Resources.resources
 C:\Users\Administrator\Desktop\wavdeal带循环搜索\wavdeal\obj\x86\Debug\wavdeal.csproj.GenerateResource.Cache
+E:\GitHub\WAV2MP3\wavdeal\bin\Debug\wavdeal.exe.config
+E:\GitHub\WAV2MP3\wavdeal\bin\Debug\wavdeal.exe
+E:\GitHub\WAV2MP3\wavdeal\bin\Debug\wavdeal.pdb
+E:\GitHub\WAV2MP3\wavdeal\obj\x86\Debug\wavdeal.mainForm.resources
+E:\GitHub\WAV2MP3\wavdeal\obj\x86\Debug\wavdeal.Properties.Resources.resources
+E:\GitHub\WAV2MP3\wavdeal\obj\x86\Debug\wavdeal.csproj.GenerateResource.cache
+E:\GitHub\WAV2MP3\wavdeal\obj\x86\Debug\wavdeal.csproj.CoreCompileInputs.cache
+E:\GitHub\WAV2MP3\wavdeal\obj\x86\Debug\wavdeal.exe
+E:\GitHub\WAV2MP3\wavdeal\obj\x86\Debug\wavdeal.pdb
+E:\GitHub\WAV2MP3\wavdeal\obj\x86\Debug\wavdeal.csprojAssemblyReference.cache

@@ -32,18 +32,18 @@
             this.button1 = new System.Windows.Forms.Button();
             this.btnConvert = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtWavForlder = new System.Windows.Forms.TextBox();
-            this.txtMp3Forlder = new System.Windows.Forms.TextBox();
-            this.btnSelectWav = new System.Windows.Forms.Button();
             this.btnSelectMp3 = new System.Windows.Forms.Button();
+            this.btnSelectWav = new System.Windows.Forms.Button();
+            this.txtMp3Forlder = new System.Windows.Forms.TextBox();
+            this.txtWavForlder = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(178, 220);
+            this.button1.Location = new System.Drawing.Point(178, 239);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 32);
             this.button1.TabIndex = 0;
@@ -77,41 +77,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "设置";
             // 
-            // label1
+            // btnSelectMp3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 66);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "音频文件夹路径：";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 129);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 12);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "MP3存放路径：";
-            // 
-            // txtWavForlder
-            // 
-            this.txtWavForlder.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtWavForlder.Location = new System.Drawing.Point(106, 62);
-            this.txtWavForlder.Name = "txtWavForlder";
-            this.txtWavForlder.ReadOnly = true;
-            this.txtWavForlder.Size = new System.Drawing.Size(287, 21);
-            this.txtWavForlder.TabIndex = 2;
-            // 
-            // txtMp3Forlder
-            // 
-            this.txtMp3Forlder.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtMp3Forlder.Location = new System.Drawing.Point(106, 125);
-            this.txtMp3Forlder.Name = "txtMp3Forlder";
-            this.txtMp3Forlder.ReadOnly = true;
-            this.txtMp3Forlder.Size = new System.Drawing.Size(287, 21);
-            this.txtMp3Forlder.TabIndex = 3;
+            this.btnSelectMp3.Location = new System.Drawing.Point(400, 124);
+            this.btnSelectMp3.Name = "btnSelectMp3";
+            this.btnSelectMp3.Size = new System.Drawing.Size(40, 23);
+            this.btnSelectMp3.TabIndex = 5;
+            this.btnSelectMp3.Text = "选择";
+            this.btnSelectMp3.UseVisualStyleBackColor = true;
+            this.btnSelectMp3.Click += new System.EventHandler(this.btnSelectMp3_Click);
             // 
             // btnSelectWav
             // 
@@ -123,15 +97,41 @@
             this.btnSelectWav.UseVisualStyleBackColor = true;
             this.btnSelectWav.Click += new System.EventHandler(this.btnSelectWav_Click);
             // 
-            // btnSelectMp3
+            // txtMp3Forlder
             // 
-            this.btnSelectMp3.Location = new System.Drawing.Point(400, 124);
-            this.btnSelectMp3.Name = "btnSelectMp3";
-            this.btnSelectMp3.Size = new System.Drawing.Size(40, 23);
-            this.btnSelectMp3.TabIndex = 5;
-            this.btnSelectMp3.Text = "选择";
-            this.btnSelectMp3.UseVisualStyleBackColor = true;
-            this.btnSelectMp3.Click += new System.EventHandler(this.btnSelectMp3_Click);
+            this.txtMp3Forlder.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtMp3Forlder.Location = new System.Drawing.Point(106, 125);
+            this.txtMp3Forlder.Name = "txtMp3Forlder";
+            this.txtMp3Forlder.ReadOnly = true;
+            this.txtMp3Forlder.Size = new System.Drawing.Size(287, 21);
+            this.txtMp3Forlder.TabIndex = 3;
+            // 
+            // txtWavForlder
+            // 
+            this.txtWavForlder.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtWavForlder.Location = new System.Drawing.Point(106, 62);
+            this.txtWavForlder.Name = "txtWavForlder";
+            this.txtWavForlder.ReadOnly = true;
+            this.txtWavForlder.Size = new System.Drawing.Size(287, 21);
+            this.txtWavForlder.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(24, 129);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(83, 12);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "MP3存放路径：";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 66);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(101, 12);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "音频文件夹路径：";
             // 
             // mainForm
             // 
